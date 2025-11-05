@@ -26,6 +26,14 @@ return require('packer').startup(function(use)
 	  end
   }
   use {
+	  "mason-org/mason-lspconfig.nvim",
+	  opts = {},
+	  dependencies = {
+		  { "mason-org/mason.nvim", opts = {} },
+		  "neovim/nvim-lspconfig",
+	  },
+  }
+  use {
 	  "OXY2DEV/markview.nvim",
 	  lazy = false,
   }

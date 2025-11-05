@@ -22,7 +22,7 @@ require("cyberdream").setup({
 		-- For a list of colors see `lua/cyberdream/colours.lua` on https://github.com/scottmckendry/cyberdream.nvim/blob/main/lua/cyberdream/colors.lua
 		-- Override colors for both light and dark variants
 		bg = "#000000",
-		green = "#00ff00",
+		green = "#00cc00", -- original #00ff00
 
 		-- If you want to override colors for light or dark variants only, use the following format:
 		dark = {
@@ -39,7 +39,7 @@ require("cyberdream").setup({
 
 
 function ColorMyPencils(color)
-	color = color or "catppuccin"
+	color = color or "cyberdream"
 	vim.cmd.colorscheme(color)
 
 end
