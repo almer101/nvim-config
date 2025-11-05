@@ -59,6 +59,7 @@ return require('packer').startup(function(use)
 		  vim.cmd('colorscheme vague')
 	  end
   })
+  use { "scottmckendry/cyberdream.nvim" }
 
   use { "catppuccin/nvim", as = "catppuccin" }
 
