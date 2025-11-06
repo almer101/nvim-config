@@ -1,10 +1,13 @@
 # Installation and configuration
+This repository contains my personal setup for `neovim` which I plan to expand on as I go. I am using `iTerm2` + `oh-my-zsh` as my terminal setup. My goal was to have a good neovim setup that will speed up my development and enable me to have an enjoyable experience while writing code. This setup enables me to quickly switch between files with `harpoon`, allows me to search for files with `telescope` and it has a working LSP configuration for `Python`, `Lua` and `bash`. Additionally, I am using [markview](https://github.com/OXY2DEV/markview.nvim) to edit and preview my Markdown files. This is a screenshot of how the user experience looks like: 
+![Markdown editing](img/readme_screenshot.png)
+
 ## Requirements
 You will need to have neovim installed together with some additional tools for your neovim config to take effect. Ensure that you have a package manager installed (like [homebrew](https://brew.sh) for Mac) and make sure you have the following installed:
 
-- neovim
-- ripgrep - this package is used for grep search inside neovim
-- npm - node package manager used to install LSP servers
+- `neovim`
+- `ripgrep` - this package is used for grep search inside neovim
+- `npm` - node package manager used to install LSP servers
 
 If missing you can install them with brew:
 ```{bash}
