@@ -1,6 +1,6 @@
 # Installation and configuration
 ## Requirements
-You will need to have neovim installed together with some additional tools for your neovim config to take effect. Ensure that you have a package manager installed (like ![homebrew](https://brew.sh) for Mac) and make sure you have the following installed:
+You will need to have neovim installed together with some additional tools for your neovim config to take effect. Ensure that you have a package manager installed (like [homebrew](https://brew.sh) for Mac) and make sure you have the following installed:
 
 - neovim
 - ripgrep - this package is used for grep search inside neovim
@@ -12,7 +12,7 @@ brew install neovim
 brew install ripgrep
 brew install node
 ```
-You also need to install Packer which is a package manager for neovim. You can do this by following the instructions in ![this link](https://github.com/wbthomason/packer.nvim)
+You also need to install Packer which is a package manager for neovim. You can do this by following the instructions in [this link](https://github.com/wbthomason/packer.nvim).
 
 ## Configuration
 Now that you have the basic requirements, you can just clone my configuration to your `~/.config/nvim` folder:
