@@ -71,4 +71,14 @@ return require('packer').startup(function(use)
 
   use { "catppuccin/nvim", as = "catppuccin" }
 
+  -- Autocompletion
+  use 'hrsh7th/nvim-cmp' -- Completion plugin
+  use 'hrsh7th/cmp-buffer' -- Buffer source
+  use 'hrsh7th/cmp-path' -- Path source
+  use 'hrsh7th/cmp-cmdline' -- Cmdline source
+  use 'hrsh7th/cmp-nvim-lsp' -- LSP source
+  use 'L3MON4D3/LuaSnip' -- Snippet engine
+  use 'saadparwaiz1/cmp_luasnip' -- Snippet source for nvim-cmp
+  --use 'rafamadriz/friendly-snippets' -- Optional: Pre-made snippets for various languages
+
 end)
