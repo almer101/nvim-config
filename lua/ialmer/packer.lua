@@ -81,4 +81,7 @@ return require('packer').startup(function(use)
   use 'saadparwaiz1/cmp_luasnip' -- Snippet source for nvim-cmp
   --use 'rafamadriz/friendly-snippets' -- Optional: Pre-made snippets for various languages
 
+  -- Commenting plugin
+  use { 'numToStr/Comment.nvim' }
+
 end)
