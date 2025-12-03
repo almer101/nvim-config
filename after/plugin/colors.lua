@@ -13,6 +13,13 @@ require("catppuccin").setup({
 
 })
 
+require("rose-pine").setup({
+	styles = {
+		italic=false,
+		transparency = true,
+	},
+})
+
 require("cyberdream").setup({
 	variant = "dark",
 	transparent = true,
@@ -44,5 +51,5 @@ function ColorMyPencils(color)
 
 end
 
-ColorMyPencils("cyberdream") -- github_dark_default, vague, rose-pine, catppuccin, cyberdream
+ColorMyPencils("rose-pine") -- github_dark_default, vague, rose-pine, catppuccin, cyberdream
 
