@@ -75,6 +75,7 @@ return require('packer').startup(function(use)
 		end
 	})
 	use { "scottmckendry/cyberdream.nvim" }
+	use { "rebelot/kanagawa.nvim" }
 
 	use { "catppuccin/nvim", as = "catppuccin" }
 	use { "morhetz/gruvbox" }

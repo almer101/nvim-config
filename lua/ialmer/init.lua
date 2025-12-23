@@ -2,7 +2,8 @@ require("ialmer.remap")
 require("ialmer.lsp")
 
 -- Options
-vim.opt.relativenumber = true
+vim.opt.relativenumber = false
+vim.opt.number = true
 
 -- Make background transparent
 vim.cmd([[highlight Normal guibg=NONE ctermbg=NONE]])

@@ -20,6 +20,11 @@ require("rose-pine").setup({
 	},
 })
 
+require("kanagawa").setup({
+	transparent = true,
+	theme = "wave", -- wave, dragon, lotus
+})
+
 require("cyberdream").setup({
 	variant = "dark",
 	transparent = true,
@@ -46,10 +51,10 @@ require("cyberdream").setup({
 
 
 function ColorMyPencils(color)
-	color = color or "cyberdream"
+	color = color or "kanagawa"
 	vim.cmd.colorscheme(color)
 
 end
 
-ColorMyPencils("rose-pine") -- github_dark_default, vague, rose-pine, catppuccin, cyberdream
+ColorMyPencils("kanagawa") -- github_dark_default, vague, rose-pine, catppuccin, cyberdream, kanagawa
 
