@@ -23,6 +23,7 @@ require("rose-pine").setup({
 require("kanagawa").setup({
 	transparent = true,
 	theme = "wave", -- wave, dragon, lotus
+	keywordStyle = { italic = false },
 })
 
 require("cyberdream").setup({
