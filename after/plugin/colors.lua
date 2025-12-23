@@ -24,6 +24,16 @@ require("kanagawa").setup({
 	transparent = true,
 	theme = "wave", -- wave, dragon, lotus
 	keywordStyle = { italic = false },
+	colors = {
+		theme = {
+			all = {
+				ui = {
+					bg_gutter = "none"
+				}
+			}
+		}
+	}
+
 })
 
 require("cyberdream").setup({
